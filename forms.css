@@ -1,0 +1,127 @@
+/* ------ Form Styles ------ */
+input[type="hidden"] { display:none; }
+
+form .label, form .legend, form label {
+    padding-top:6px;
+    line-height: 18px;
+    float: left;
+    width: 130px;
+    text-align: right;
+    color: #404040;
+    vertical-align:middle;
+}
+
+input, textarea, select {
+    display:inline-block;
+    width:210px;
+    padding:4px;
+    height:18px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:solid 1px #ccc;
+}
+
+select {
+    width:auto;
+    min-width:218px;
+    height: 27px;
+    line-height: 27px;
+    background:#fff;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width:auto;
+    height:auto;
+    line-height:normal;
+    border:none;
+}
+
+input[type="text"], input[type="email"] {
+    vertical-align:middle;
+}
+
+form .spot {
+    margin-bottom:1em;
+}
+
+form .input {
+    position:relative;
+    margin-left:150px;
+    float:none;
+}
+
+form .input label {
+    padding-top:0;
+    width:auto;
+    float:none;
+    display:block;
+    text-align:left;
+}
+
+/* ------ Button Styles ------ */
+button::-moz-focus-inner{padding:0;border:none}
+
+.button {
+    box-sizing:border-box;
+    text-align: center;
+    text-decoration:none;
+    font-size:80%;
+    line-height:normal !important;
+    padding:7px 10px 6px;
+    cursor:pointer;
+    display:inline-block;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    overflow:hidden;
+    vertical-align:middle;
+    /* IE7 fixes */
+    *padding:5px 5px 6px;
+    *zoom:1;
+    *display: inline;
+    *margin-right:.3em;
+}
+
+.button:hover {
+    color:#000;
+}
+
+.button {
+    background: #cfe7fa;
+    border:solid 1px #6393c1;
+    color:darkblue;
+}
+
+.primary {
+    background: #a9db80;
+    border:solid 1px #96c56f;
+    color:darkgreen;
+}
+
+.danger {
+    background:#ff3019;
+    border:solid 1px #cf0404;
+    color:pink;
+}
+
+.link, .link:hover {
+    background:transparent;
+    border-color:transparent;
+}
+
+.button.full-width {
+    display:block;
+    clear:both;
+    width:100%;
+    margin:0;
+}
+
+/* ------ Error Styles ------ */
+.form_err_wrapper { display:block; margin-left:150px; padding-top:6px; }
+.form_err_wrapper.hidden {display:none;}
+.form_err_msg { color:red; font-size:70%; }
+.err_box { position:relative; color:red;}
+.err_box label {color:red;}
+.err_box input, .err_box textarea, .err_box select { border-color:red; }
+
