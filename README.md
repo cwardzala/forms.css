@@ -30,6 +30,6 @@ A few basic button styles are provided.
 
 * `.button`: this is the basis for all buttons, and can be used for general button styling
 * `.primary`: primary call to action
-* `.danger`: negative call to action (e.g. delete)
+* `.negative`: negative call to action (e.g. delete)
 * `.link`: hyperlink type button with no background or border
 * `.full-width`: 100% width button, good for mobile

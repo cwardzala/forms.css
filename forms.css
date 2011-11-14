@@ -99,7 +99,7 @@ button::-moz-focus-inner{padding:0;border:none}
     color:darkgreen;
 }
 
-.danger {
+.negative {
     background:#ff3019;
     border:solid 1px #cf0404;
     color:pink;
