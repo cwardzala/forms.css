@@ -118,10 +118,9 @@ button::-moz-focus-inner{padding:0;border:none}
 }
 
 /* ------ Error Styles ------ */
-.form_err_wrapper { display:block; margin-left:150px; padding-top:6px; }
-.form_err_wrapper.hidden {display:none;}
-.form_err_msg { color:red; font-size:70%; }
-.err_box { position:relative; color:red;}
-.err_box label {color:red;}
-.err_box input, .err_box textarea, .err_box select { border-color:red; }
+.error { display:block; margin-left:150px; padding-top:6px; color:red; font-size:70%; }
+.error.hidden {display:none;}
+.error-spot { position:relative; color:red;}
+.error-spot label {color:red;}
+.error-spot input, .error-spot textarea, .error-spot select { border-color:red; }
 

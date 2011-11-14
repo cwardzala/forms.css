@@ -33,3 +33,16 @@ A few basic button styles are provided.
 * `.negative`: negative call to action (e.g. delete)
 * `.link`: hyperlink type button with no background or border
 * `.full-width`: 100% width button, good for mobile
+
+###Validation/Error states
+
+```html
+<div class="spot error-spot">
+    <label for="input">Label</label>
+    <div class="input">
+        <input type="text" id="input"/>
+    </div>
+    <div class="error">Error Message!</div>
+</div>
+```
+
