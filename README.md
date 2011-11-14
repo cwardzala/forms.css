@@ -20,8 +20,11 @@ Basic HTML structure borrowed from [Twitter Bootstrap](http://twitter.github.com
 
 ###Button HTML
 `.button` can be applied to either button or anchor elements.
-	<button class="button">Button</button>
-	<a href="#" class="button">Anchor Button</a>
+
+```html
+<button class="button">Button</button>
+<a href="#" class="button">Anchor Button</a>
+```
 
 A few basic button styles are provided.
 
