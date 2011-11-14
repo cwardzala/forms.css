@@ -6,6 +6,7 @@ Styles tested in: IE7+, Firefox 8, Safari 5, and Chrome 15.
 
 ###Basic HTML
 Basic HTML structure borrowed from [Twitter Bootstrap](http://twitter.github.com/bootstrap)
+
 ```html
 	<form>
 		<div class="spot">
