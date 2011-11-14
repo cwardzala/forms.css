@@ -36,6 +36,10 @@ A few basic button styles are provided.
 
 ###Validation/Error states
 
+* `.error-spot`: Containing div class, allows styling of label and form
+  input
+* `.error`: Error message class
+
 ```html
 <div class="spot error-spot">
     <label for="input">Label</label>
