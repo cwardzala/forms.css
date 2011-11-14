@@ -18,7 +18,7 @@ Basic HTML structure borrowed from [Twitter Bootstrap](http://twitter.github.com
 </form>
 ```
 
-###Button HTML
+###Buttons
 `.button` can be applied to either button or anchor elements.
 
 ```html
