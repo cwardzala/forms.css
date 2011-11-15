@@ -66,7 +66,7 @@ button::-moz-focus-inner{padding:0;border:none}
     box-sizing:border-box;
     text-align: center;
     text-decoration:none;
-    font-size:80%;
+    font-size:0.813em;
     line-height:normal !important;
     padding:7px 10px 6px;
     cursor:pointer;
@@ -118,7 +118,7 @@ button::-moz-focus-inner{padding:0;border:none}
 }
 
 /* ------ Error Styles ------ */
-.error { display:block; margin-left:150px; padding-top:6px; color:red; font-size:70%; }
+.error { display:block; margin-left:150px; padding-top:6px; color:red; font-size:0.688em; }
 .error.hidden {display:none;}
 .error-spot { position:relative; color:red;}
 .error-spot label {color:red;}
