@@ -2,32 +2,44 @@
 input[type="hidden"] { display:none; }
 
 form .label, form .legend, form label {
-    padding-top:6px;
     line-height: 18px;
+    color: #404040;
+    display:block;
+    margin-bottom:3px;
+}
+
+.form-inline .label, .form-inline .legend, .form-inline label {
+    padding-top:6px;
     float: left;
     width: 130px;
-    text-align: right;
-    color: #404040;
     vertical-align:middle;
+    margin-bottom:0;
 }
 
 input, textarea, select {
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
     display:inline-block;
-    width:210px;
+    width:295px;
     padding:4px;
-    height:18px;
+    height:28px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
     border-radius:3px;
     border:solid 1px #ccc;
 }
 
+textarea {
+    min-height:100px;
+}
+
 select {
     width:auto;
-    min-width:218px;
+    min-width:295px;
     height: 27px;
     line-height: 27px;
     background:#fff;
+    box-shadow:none;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -45,7 +57,7 @@ form .spot {
     margin-bottom:1em;
 }
 
-form .input {
+.form-inline .input {
     position:relative;
     margin-left:150px;
     float:none;
@@ -63,24 +75,30 @@ form .input label {
 button::-moz-focus-inner{padding:0;border:none}
 
 .button {
+    font-family:inherit;
+    -moz-box-sizing:border-box;
     box-sizing:border-box;
     text-align: center;
     text-decoration:none;
-    font-size:0.813em;
+    font-size:1em;
     line-height:normal !important;
-    padding:7px 10px 6px;
     cursor:pointer;
     display:inline-block;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    border-radius:3px;
     overflow:hidden;
     vertical-align:middle;
-    /* IE7 fixes */
-    *padding:5px 5px 6px;
-    *zoom:1;
-    *display: inline;
-    *margin-right:.3em;
+    margin:0;
+    width:auto;
+    height:auto;
+    
+    /* Cosmetics */
+    padding:0.5em;           /* Set in ems so we can scale buttons up with font-size alone. */
+    border:none;
+    background-color:#ACE;
+    border-radius:4px;
+    -webkit-transition:0.2s;
+       -moz-transition:0.2s;
+            transition:0.2s;
+
 }
 
 .button:hover {
@@ -110,7 +128,8 @@ button::-moz-focus-inner{padding:0;border:none}
     border-color:transparent;
 }
 
-.button.full-width {
+.button.full-width { 
+    box-sizing:border-box;
     display:block;
     clear:both;
     width:100%;
